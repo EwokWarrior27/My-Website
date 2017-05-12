@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>My Second Website</title>
+</head>
+<body>
+  <script>
+    function first()
+    {
+      document.getElementsByTagName("h2")[0].innerHTML = "I want to improve my coding skills."
+    }
+    function home()
+    {
+      document.getElementsByTagName("h2")[0].innerHTML = "Hello! My Name Is Arjun."
+    }
+  </script>
+  <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+    {
+      margin: 0;
+      padding: 0;
+			overflow:hidden;
+    }
+    body {
+      background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiP9bDq_urTAhXIslQKHfl8BQEQjRwIBw&url=http%3A%2F%2Fwww.pptgrounds.com%2Fabstract%2F5559-blue-polygonal-backgrounds&psig=AFQjCNHI-qDJ3laHjWfowquwnj6XY5E8MA&ust=1494700315359738");
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      margin:0;
+      padding: 0;
+      overflow:hidden;
+    }
+    #title{
+      font-size:90pt;
+      margin-bottom:0;
+      padding-bottom:0;
+      font-family:"Montserrat";
+    }
+    h2 {
+      margin-top: 10%;
+      height: 30%;
+      color: #00d6cb;
+      font-size: 100pt;
+      font-family:"Montserrat";
+    }
+    #complete {
+      margin-top:0;
+      width: 800px;
+      height: 500px;
+      display: inline-flex;
+      font-family:"Montserrat";
+      padding-bottom: 200px;
+    }
+    .item {
+      color: black;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top:0;
+      flex: auto;
+      margin-top: 31%;
+      margin-bottom: 500px;
+      width: 200px;
+      height: 125px;
+      background: #00d6cb;
+    	border-radius: 2px;
+    	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+      font-size: 18px;
+      letter-spacing: 1px;
+      padding: 16px 32px;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-transition: box-shadow 1s ease;
+    	transition: box-shadow 1s ease;
+      font-family:"Montserrat";
+    }
+
+    .item h2
+    {
+      margin-top: 10%;
+      color: black;
+      font-size: 48pt;
+    }
+  </style>
+  <center><h2 id="title">Hello! My Name Is Arjun.</h2></center>
+  <center><div id="complete">
+    <div class="item" id="first" onclick="first()"><center><h2>My Goal</h2></center></div>
+    <div class="item" id="home" onclick="home()"><center><h2>Home</h2></center></div>
+  </div></center>
+</body>
+</html>
